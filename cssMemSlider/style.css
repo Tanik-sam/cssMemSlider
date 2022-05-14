@@ -86,7 +86,6 @@ body {
 .slide18 { background-image: url("./assets/images/mem2019-9.jpg"); }
 .slide19 { background-image: url("./assets/images/mem2020.jpg"); }
 .slide20 { background-image: url("./assets/images/mem2021.jpg"); }
-.slide21 { background-image: url("./assets/images/mem2022.png"); }
 
 
 .wrapper .nav .controls {
@@ -107,7 +106,6 @@ body {
 	flex-direction: row;
 	flex-wrap:wrap;
 	justify-content: space-between;
-	
 }
 
 .wrapper .nav label {
@@ -147,8 +145,6 @@ body {
 	transition: background ease-in-out .5s;
 }
 
-
-
 .wrapper .nav label:hover
 {
 	background: #ffffff;
@@ -176,8 +172,7 @@ body {
 #slide17:checked ~ .nav .controls label:nth-of-type(17),
 #slide18:checked ~ .nav .controls label:nth-of-type(18),
 #slide19:checked ~ .nav .controls label:nth-of-type(19),
-#slide20:checked ~ .nav .controls label:nth-of-type(20),
-#slide21:checked ~ .nav .controls label:nth-of-type(21)
+#slide20:checked ~ .nav .controls label:nth-of-type(20)
  {
 	
 	border: 0.2rem solid #387681;
@@ -224,8 +219,7 @@ body {
 #slide17:checked ~ .slider > .slide17,
 #slide18:checked ~ .slider > .slide18,
 #slide19:checked ~ .slider > .slide19,
-#slide20:checked ~ .slider > .slide20,
-#slide21:checked ~ .slider > .slide21
+#slide20:checked ~ .slider > .slide20
  {
 	opacity: 1;
 	z-index: 1;
@@ -255,8 +249,7 @@ body {
 #slide17:checked ~ .nav .caption > .text17,
 #slide18:checked ~ .nav .caption > .text18,
 #slide19:checked ~ .nav .caption > .text19,
-#slide20:checked ~ .nav .caption > .text20,
-#slide21:checked ~ .nav .caption > .text21
+#slide20:checked ~ .nav .caption > .text20
 
  {
 	opacity: 1;
