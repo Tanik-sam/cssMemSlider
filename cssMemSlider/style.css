@@ -306,7 +306,9 @@ body {
 	  -o-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 1);
 	  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 1);
 	}
-
+	.wrapper .nav {
+	  height: 23.75rem;
+	}
   }
   @media (max-width: 480px) and (min-width: 321px) {
 	.slider {
@@ -322,7 +324,9 @@ body {
 	  -o-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 1);
 	  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 1);
 	}
-
+	.wrapper .nav {
+	  height: 23rem;
+	}
 	.wrapper .nav .captions {
 	  font-size: 1 rem;
 	}
