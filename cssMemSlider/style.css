@@ -306,9 +306,7 @@ body {
 	  -o-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 1);
 	  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 1);
 	}
-	.wrapper .nav {
-	  height: 23.75rem;
-	}
+
   }
   @media (max-width: 480px) and (min-width: 321px) {
 	.slider {
@@ -324,9 +322,7 @@ body {
 	  -o-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 1);
 	  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 1);
 	}
-	.wrapper .nav {
-	  height: 21.875rem;
-	}
+
 	.wrapper .nav .captions {
 	  font-size: 1 rem;
 	}
@@ -367,7 +363,7 @@ body {
 	  flex-direction: column;
 	  flex-wrap: wrap;
 	  justify-content: center;
-	  height: 12.5rem;
+	  height: 18rem;
 	}
 	.wrapper .nav .controls {
 	  justify-self: center;
@@ -396,7 +392,7 @@ body {
 	}
 	.wrapper {
 	  width: 100%;
-	  margin: 3.75rem 0 0;
+	  margin: 2rem 0 0;
 	}
 	.slider {
 	  width: 100%;
